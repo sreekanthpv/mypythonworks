@@ -1,0 +1,9 @@
+hello
+hi
+hello
+
+2types of operations
+
+   1 read -reads file content-r
+   2 write- add data-w
+   3 append-add data-a

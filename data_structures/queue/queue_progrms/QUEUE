@@ -1,0 +1,5 @@
+a queue follows FIFO priciple.the elements are added to the beggining of the queue
+elements are deleted from the end of the queue
+to perform queue we need 2 operations
+1 enqueue...add element at the end of the queue
+2 dequeue...deletes element from the beggining of the queue

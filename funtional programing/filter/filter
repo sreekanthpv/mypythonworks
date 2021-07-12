@@ -1,0 +1,16 @@
+filter - generates output for objects which follows the condition.
+
+
+
+Definition and Usage
+
+The filter() method filters the given sequence with the help of a function
+ that tests each element in the sequence to be true or not.
+
+OR
+
+The filter() function returns an iterator were the items are filtered
+with the help of  a function to test if the item is accepted or not.
+
+Syntax
+filter(function, iterable)
