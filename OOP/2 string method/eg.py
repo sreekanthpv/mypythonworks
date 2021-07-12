@@ -12,3 +12,5 @@ obj=College('anu',5)
 print(obj)
 ob=College('amal',5)
 print(ob)
+
+ob1=College()
