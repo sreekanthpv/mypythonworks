@@ -43,7 +43,7 @@
 class Book:
    books = {
     'alchemist': {'bname': 'alchemist', 'author': 'paulo', 'price': 200, 'avcopies': 10, 'sold': 400},
-    'hg': {'bname': 'hg', 'author': 'chetan', 'price': 100, 'avcopies': 11, 'sold': 3000},
+    'hg': {'bname': 'hg', 'author': 'chetan', 'price': 100, 'avcopies': 11, 'sold': 0},
     'rainrising': {'bname': 'rainrising', 'author': 'KK', 'price': 100, 'avcopies': 0, 'sold': 900}
    }
    sorted={}
@@ -58,6 +58,7 @@ class Book:
                print('avail copies of ',bookname,':',self.books[bookname]['sold'])
        else:
            print('enter valid book')
+
    def sort(self):
        for i in self.books:
         self.sold.append(self.books[i]['sold'])
