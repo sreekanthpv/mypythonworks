@@ -13,4 +13,4 @@ print(obj)
 ob=College('amal',5)
 print(ob)
 
-ob1=College()
+ob1=College('collegename')
