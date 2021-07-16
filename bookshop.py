@@ -44,7 +44,7 @@ class Book:
    books = {
     'alchemist': {'bname': 'alchemist', 'author': 'paulo', 'price': 200, 'avcopies': 10, 'sold': 400},
     'hg': {'bname': 'hg', 'author': 'chetan', 'price': 100, 'avcopies': 11, 'sold': 0},
-    'rainrising': {'bname': 'rainrising', 'author': 'KK', 'price': 100, 'avcopies': 0, 'sold': 900}
+    'rainrising': {'bname': 'rainrising', 'author': 'KK', 'price': 100, 'avcopies': 0, 'sold': 200}
    }
    sorted={}
    auth=[]
@@ -59,18 +59,20 @@ class Book:
        else:
            print('enter valid book')
 
+   # def sort(self):
+   #     for i in self.books:
+   #      self.sold.append(self.books[i]['sold'])
+   #     self.sold.sort()
+   #     self.sold.reverse()
+   #     # print(self.sold)
+   #     for i in self.sold:
+   #         for j in self.books:
+   #          if i==self.books[j]['sold']:
+   #              self.auth.append(self.books[j]['author'])
+   #     print('sorted order of authors based on sold books',self.auth)
    def sort(self):
-       for i in self.books:
-        self.sold.append(self.books[i]['sold'])
-       self.sold.sort()
-       self.sold.reverse()
-       # print(self.sold)
-       for i in self.sold:
-           for j in self.books:
-            if i==self.books[j]['sold']:
-                self.auth.append(self.books[j]['author'])
-       print('sorted order of authors based on sold books',self.auth)
-
+    res=sorted(self.books.items(), key=lambda x:x[1]['sold'],reverse=True)
+    print(str(res))
 
 obj=Book()
 obj.available('hg')
