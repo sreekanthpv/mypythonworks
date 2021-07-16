@@ -1,0 +1,18 @@
+/*  */
+body{
+    background-color: #f0f2f5;
+}
+h1{
+    color:#4267b2;;
+    text-align: center;
+}
+#hone{
+    color:hsl(312, 30%, 38%);
+}
+
+.btn{
+    width:90px;
+    height:40px;
+    background-color: #5e068a;
+    color: ivory;
+}   
