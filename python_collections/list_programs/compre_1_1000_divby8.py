@@ -1,2 +1,2 @@
-a=[i for i in range(1,1000) if i%8==0]
+a=[i for i in range(1,1000) if i % 2==0]
 print(a)

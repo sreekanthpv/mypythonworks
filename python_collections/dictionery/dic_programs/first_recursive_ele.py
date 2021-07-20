@@ -1,9 +1,8 @@
-a='aplee'
-b={}
+a='abcc'
+dic={}
 for i in a:
-    if i not in b:
-        b.update({i:1})
+    if i not in dic:
+        dic.update({i:1})
     else:
         print(i)
         break
-# print(b)
