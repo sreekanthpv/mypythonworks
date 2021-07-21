@@ -1,0 +1,139 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.row{
+    position: absolute;
+    left: 30%;
+    width:  70%;
+    height: 250px;
+    
+}
+.col{float: left;
+    margin-left: 10px;
+    width: 10%;
+    height: 140px;
+}
+.col:nth-child(1){
+   
+    background-color: rgb(233, 4, 233);
+}
+.col:nth-child(2){
+  
+    background-color: tomato;
+}
+.col:nth-child(3){
+ 
+    background-color: goldenrod;
+}
+.col:nth-child(4){
+  
+    background-color:red;
+}
+.col:nth-child(5){
+
+    background-color: indigo;
+}
+.row-2{
+    position: absolute;
+    top: 34%;
+    width: 70%;
+    height: 250px;
+    /* background-color: lightcoral; */
+    left:345px;
+}
+.col-1{float: left;
+    /* width: calc(70% / 7); */
+    width: 10%;
+    height: 140px;
+    margin-left: 10px;
+}
+.col-1:nth-child(1){
+    background-color: lightgreen;
+}
+.col-1:nth-child(2){
+    background-color: lightpink;
+
+}
+.col-1:nth-child(3){
+    background-color: magenta;
+
+}
+.col-1:nth-child(4){
+    background-color: maroon;
+
+}
+.col-1:nth-child(5){
+    background-color: mediumblue;
+
+}
+.col-1:nth-child(6){
+    background-color: mediumorchid;
+
+}
+.col-1:nth-child(7){
+    background-color: mediumslateblue;
+}
+
+
+.row-3{
+    /* background-color: aqua; */
+    position: absolute;
+    top:58%;
+    left: 226px;
+    width: 70%;
+    height: 250px;
+}
+.col-2{
+    width: 10%;
+    height:140px;
+    margin-left: 10px;
+    float: left;
+}
+
+.col-2:nth-child(1){
+    background-color: blue;
+
+}
+.col-2:nth-child(2)
+{
+    background-color: blueviolet;
+}
+
+.col-2:nth-child(3){
+    background-color: brown;
+
+}
+
+.col-2:nth-child(4){
+    background-color: khaki;
+
+}
+
+.col-2:nth-child(5){
+    background-color: palegoldenrod;
+
+}
+
+.col-2:nth-child(6){
+    background-color:indigo;
+
+}
+
+.col-2:nth-child(7){
+    background-color:rebeccapurple;
+
+}
+
+.col-2:nth-child(8){
+    background-color: rosybrown;
+
+}
+
+.col-2:nth-child(9){
+    background-color: firebrick;
+
+}
