@@ -2,23 +2,27 @@ div{float: left;
     background-color: #f6f6f5;
     width: 22%;
     border: rgb(248, 246, 243) 2px solid;
-    height: 680px;
+    height: 300px;
     margin-right: 22px;
     margin-left: 15px;
+    padding-bottom:200%;
     padding:2px;
 
 }
 div img{
     
-    height:90%;
-    width: 90%
+    height:100%;
+    width: 100%;
+    margin-bottom: 1px;
 }
 div p{  font-style: italic;
+    color: azure;
     line-height: 28px;
     padding-top: 1px;
     padding-left: 10px;
 }
 div h4{font-family: fantasy;
+    color: beige;
     font-size: 20px;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -28,7 +32,7 @@ div h4{font-family: fantasy;
 
 
 div h3{
-    color:#d96630;
+    color:#bd8b75;
     font-size: 28px;
     padding-top: 1px;
     padding-bottom :1px;
@@ -37,4 +41,5 @@ div h3{
 
 body{
     background-color: #444;
+    /* background-color: aquamarine; */
 }
