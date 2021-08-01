@@ -1,0 +1,67 @@
+.navbar a
+{  font-size: 14px;
+    font-weight: 500;
+    color:#2d3e50 !important;
+    /* background-color: blue; */
+
+}
+.navbar a:hover{
+    color: #5e068a !important;
+}
+.carousel-item img{
+    
+    height: 500px;
+}
+.carousel-caption{
+    /* box-sizing: border-box; */
+    
+    /* border: rebeccapurple 2px solid; */
+    width: 1000px;
+    
+}
+.carousel-caption h1{
+    text-align: left;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 64px;
+    font-style: normal;
+    
+
+}
+
+.carousel-caption p{
+    text-align: left;
+    margin-bottom: 200px;
+}
+
+.col-6 h3{
+   color: #5e068a;
+   font-weight: 600;
+}
+.col-6 h3 span{
+    color: #9e6ab9;
+}
+.col-6 p{
+
+    line-height: 32px;
+    font-size: 16px;
+}
+.col-6 .btn{
+    padding: 16px 27px;
+    font-size: 14px;
+    background-color: #5e068a;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 600;
+
+}
+.col-6 .btn:hover{
+   border-color: #5e068a;
+    background-color: #fff;
+}
+.card a{
+    background-color: #5e068a;
+    font-weight: 700;
+}

@@ -12,7 +12,7 @@ def check(func):
 
 @check
 def vaccine(name,age):
-    print(name,'eligible for vaccination')
+    print(name,'eligible for vaccination',age)
 vaccine('anu',19)
 
 @check

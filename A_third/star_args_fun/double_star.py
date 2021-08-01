@@ -28,8 +28,10 @@ def valid(**kwargs):
 valid(accno=1000,password='user1')
 
 def getbal(user):
-    if user==users[user]:
-        print(users[user['balance']])
+    # print(user)
+    if user in users:
+        print(users[user]['balance'])
     else:
         print('invalid')
+getbal(100)
 
